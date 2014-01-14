@@ -6,6 +6,8 @@
 
 package revolutionnarybot;
 
+import java.awt.AWTException;
+
 /**
  *
  * @author Djo
@@ -15,8 +17,9 @@ public class RevolutionnaryBot {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws AWTException {
+        MaliciousRobot bot = new MaliciousRobot(100,10);
+        //bot.run();
     }
     
 }
